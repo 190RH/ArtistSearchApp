@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("background.jpg");
+    margin-right: 3vh;
+    margin-left: 3vh;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#bg {
+    background-color: #000000b2;
+}
+
+#navBar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #a37861;
+    background-color: #181818be;
+}
+
+#navBar h1 {
+    background: none;
+    margin-right: 4vw;
+}
+
+#searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a37861;
+}
+
+#searchContainer input {
+    position: relative;
+    height: 2vh;
+    width: 30vh;
+    left: 1.5vh;
+    font-size: 1.2vh;
+    border-radius: 0.2vh;
+    background-color: #282828;
+    border: 0.155vh solid #a37861;
+    color: #a37861;
+    padding: 5px;
+}
+
+#searchContainer:focus {
+    border: 1px solid black;
+}
+
+#searchContainer p {
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+#artistList-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding-top: 3vh;
+    padding-bottom: 15vh;
+}
+
+#artistList {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    height: auto;
+    row-gap: 0.5vh;
+    column-gap: 0.5vh;
+    width: 30%;
+}
+
+#artistBlock {
+    height: 100%;
+    width: 100%;
+    font-size: 2vh;
+    font-weight: 150;
+    padding: 1vh;
+    border-radius: 0.3vh;
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.096) inset;
+    color: #a37861;
+    background-color: #282828c4;
+    border: none;
+}
+
+#artistBlock:hover {
+    transition: 0.3s ease;
+    background-color: #16161659;
+    cursor: pointer;
+}
+
+
+#artistContainer {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+}
+
+
+
